@@ -14,7 +14,7 @@ int main(){
     Student* studentList[30];
     Book bk;
     cin.getline(bk.name,30);
-    (bk.author)="Author Name";
+    bk.author="Author Name";
     Student st;
     st.fn=12345;
     st.studentBook=&bk;
