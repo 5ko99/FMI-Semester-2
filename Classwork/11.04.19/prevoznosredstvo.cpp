@@ -64,13 +64,14 @@ class Tesla:public Car{
 public:
 Tesla(short, char*,short, char*, int);
 Tesla(const Tesla&);
-Tesla& operator+(const Tesla&);
+Tesla& operator=(const Tesla&);
 ~Tesla();
+void printTesla();
 };
 void Tesla::copyTesla(short doors, char* color){
     this->doors=doors;
     this->color=new char[strlen(color)+1];
-    assert(this->color);
+    //assert(this->color);
     strcpy(this->color,color);
 }
 void Tesla::delTesla(){
@@ -79,7 +80,7 @@ void Tesla::delTesla(){
 Tesla::Tesla(short doors, char* color, short type, char* num, int year):Car(type,num,year){
     Tesla::copyTesla(doors,color);
 }
-Tesla::Tesla(const Tesla& t){
+Tesla::Tesla(const Tesla& t):Car(t){
     Tesla::copyTesla(t.doors,t.color);
 }
 Tesla& Tesla::operator=(const Tesla& t){
@@ -93,9 +94,20 @@ Tesla& Tesla::operator=(const Tesla& t){
 Tesla::~Tesla(){
     Tesla::delTesla();
 }
+void Tesla::printTesla(){
+    //printf("%s %s %s %s %s ",this->doors,this->color,this->type,this->num,this->year);
+    cout<<this->num<<endl;
+}
 
 
 int main(){
-    
+    Tesla t2(5,"Blue",2,"45546",2019);
+    t2.printTesla();
+    Tesla t1=t2;
+    t1.printTesla();
+    Tesla t3(5,"Blue",2,"12345",2019);
+    t3.printTesla();
+    t3=t1;
+    t3.printTesla();
     return 0;
 }
