@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/OOP_Prakt_Project.dir/main.cpp.o CMakeFiles/OOP_Prakt_Project.dir/Student.cpp.o CMakeFiles/OOP_Prakt_Project.dir/functions.cpp.o  -o OOP_Prakt_Project 
