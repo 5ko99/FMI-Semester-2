@@ -63,8 +63,9 @@ void Student::setGrade(short grade) {
 }
 //Functions for db
 bool Student::checkStudent(ifstream& db) const {
-    int fn;
-    db.seekg(ios::beg);
+    int fn=-1;
+    db.clear();
+    db.seekg(0,ios::beg);
     while(!db.eof()){
         db>>fn;
         db.ignore(256,'\n');

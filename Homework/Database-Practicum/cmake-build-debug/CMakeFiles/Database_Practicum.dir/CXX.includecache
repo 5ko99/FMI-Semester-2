@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/Functions.cpp
+Functions.h
+/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/Functions.h
+
 /home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/Functions.h
 Student.h
 /home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/Student.h
@@ -17,8 +21,4 @@ fstream
 -
 cstring
 -
-
-/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/main.cpp
-Functions.h
-/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/Functions.h
 

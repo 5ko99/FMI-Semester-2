@@ -1,4 +1,3 @@
-//#include "cmake-build-debug/Student.h"
 #include "Functions.h"
 const char* path = "../StudentsGrades.db";
 int main() {
@@ -14,10 +13,7 @@ int main() {
         cerr<<"File could't be opened!"<<endl;
         return 1;
     }
-    Student st(4,"Krasi","Kaemnov",6);
-    //saveStudent(dbO,dbI,st);
-    //sequentialSearch(123,dbI);
-    updateStudent(path,dbI,4,6);
+    readCommands(dbI,dbO,path);
     dbO.close();
     dbI.close();
     return 0;
