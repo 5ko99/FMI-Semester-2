@@ -1,0 +1,3 @@
+/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/cmake-build-debug/CMakeFiles/Database_Practicum.dir
+/home/petko/Workspace/FMI-Semester-2/Homework/Database-Practicum/cmake-build-debug/CMakeFiles/edit_cache.dir
