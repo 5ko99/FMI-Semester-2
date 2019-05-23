@@ -4,4 +4,4 @@ private->privte         private->private        private->private
 protected->protected    protected->private      protected->protected
 
 Член функциите не се влиаят от типа на наследяването
-Ако в базовият е private  тогава не можем да го достъпим от базовият
+Ако в базовият е private  тогава не можем да го достъпим от наследника

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/Peshka.h
+figura.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/figura.h
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/Top.h
+figura.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/figura.h
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/figura.h
+cstring
+-
+iostream
+-
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/main.cpp
+iostream
+-
+Peshka.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/Peshka.h
+Top.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/22.05.19/Chess/Top.h
+

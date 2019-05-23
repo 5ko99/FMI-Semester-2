@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DateTime.dir/main.cpp.o CMakeFiles/DateTime.dir/Date.cpp.o CMakeFiles/DateTime.dir/Time.cpp.o CMakeFiles/DateTime.dir/DateTime.cpp.o  -o DateTime 

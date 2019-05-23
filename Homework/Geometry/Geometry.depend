@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1555918599 source:c:\users\grade\documents\22.04.19\geometry\main.cpp
+	"SquarePyramid.h"
+	"Cylinder.h"
+
+1555918664 c:\users\grade\documents\22.04.19\geometry\squarepyramid.h
+	"cylinder.h"
+
+1555916990 c:\users\grade\documents\22.04.19\geometry\cylinder.h
+	<iostream>
+

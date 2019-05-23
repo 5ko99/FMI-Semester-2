@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/Date.h
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/DateTime.cpp
+DateTime.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/DateTime.h
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/DateTime.h
+Date.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/Date.h
+Time.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/Time.h
+cstring
+-
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/Time.h
+
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/main.cpp
+DateTime.h
+/home/petko/Workspace/FMI-Semester-2/Classwork/15.05.19/DateTime/DateTime.h
+iostream
+-
+
