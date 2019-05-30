@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Diamond.dir/main.cpp.o CMakeFiles/Diamond.dir/A.cpp.o CMakeFiles/Diamond.dir/B.cpp.o  -o Diamond 

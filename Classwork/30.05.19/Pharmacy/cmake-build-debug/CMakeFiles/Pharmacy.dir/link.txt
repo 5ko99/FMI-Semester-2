@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pharmacy.dir/main.cpp.o CMakeFiles/Pharmacy.dir/Medicine.cpp.o CMakeFiles/Pharmacy.dir/Hapche.cpp.o CMakeFiles/Pharmacy.dir/Syrob.cpp.o CMakeFiles/Pharmacy.dir/Pharmacy.cpp.o  -o Pharmacy 
