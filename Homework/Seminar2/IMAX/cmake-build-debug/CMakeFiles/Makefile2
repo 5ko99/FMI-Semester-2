@@ -59,45 +59,45 @@ RM = /var/lib/snapd/snap/clion/73/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Pharmacy.dir
+# Target rules for target CMakeFiles/IMAX.dir
 
 # All Build rule for target.
-CMakeFiles/Pharmacy.dir/all:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/depend
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Pharmacy"
-.PHONY : CMakeFiles/Pharmacy.dir/all
+CMakeFiles/IMAX.dir/all:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/depend
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target IMAX"
+.PHONY : CMakeFiles/IMAX.dir/all
 
 # Include target in all.
-all: CMakeFiles/Pharmacy.dir/all
+all: CMakeFiles/IMAX.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Pharmacy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles 6
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Pharmacy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Pharmacy.dir/rule
+CMakeFiles/IMAX.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/IMAX.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/IMAX.dir/rule
 
 # Convenience name for target.
-Pharmacy: CMakeFiles/Pharmacy.dir/rule
+IMAX: CMakeFiles/IMAX.dir/rule
 
-.PHONY : Pharmacy
-
-# clean rule for target.
-CMakeFiles/Pharmacy.dir/clean:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/clean
-.PHONY : CMakeFiles/Pharmacy.dir/clean
+.PHONY : IMAX
 
 # clean rule for target.
-clean: CMakeFiles/Pharmacy.dir/clean
+CMakeFiles/IMAX.dir/clean:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/clean
+.PHONY : CMakeFiles/IMAX.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/IMAX.dir/clean
 
 .PHONY : clean
 

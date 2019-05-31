@@ -48,10 +48,10 @@ RM = /var/lib/snapd/snap/clion/73/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy
+CMAKE_SOURCE_DIR = /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/petko/Workspace/FMI-Semester-2/Homework/Seminar2/IMAX/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,125 +111,125 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Pharmacy
+# Target rules for targets named IMAX
 
 # Build rule for target.
-Pharmacy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Pharmacy
-.PHONY : Pharmacy
+IMAX: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IMAX
+.PHONY : IMAX
 
 # fast build rule for target.
-Pharmacy/fast:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/build
-.PHONY : Pharmacy/fast
+IMAX/fast:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/build
+.PHONY : IMAX/fast
 
-Hapche.o: Hapche.cpp.o
+GroupTicket.o: GroupTicket.cpp.o
 
-.PHONY : Hapche.o
-
-# target to build an object file
-Hapche.cpp.o:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Hapche.cpp.o
-.PHONY : Hapche.cpp.o
-
-Hapche.i: Hapche.cpp.i
-
-.PHONY : Hapche.i
-
-# target to preprocess a source file
-Hapche.cpp.i:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Hapche.cpp.i
-.PHONY : Hapche.cpp.i
-
-Hapche.s: Hapche.cpp.s
-
-.PHONY : Hapche.s
-
-# target to generate assembly for a file
-Hapche.cpp.s:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Hapche.cpp.s
-.PHONY : Hapche.cpp.s
-
-Medicine.o: Medicine.cpp.o
-
-.PHONY : Medicine.o
+.PHONY : GroupTicket.o
 
 # target to build an object file
-Medicine.cpp.o:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Medicine.cpp.o
-.PHONY : Medicine.cpp.o
+GroupTicket.cpp.o:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/GroupTicket.cpp.o
+.PHONY : GroupTicket.cpp.o
 
-Medicine.i: Medicine.cpp.i
+GroupTicket.i: GroupTicket.cpp.i
 
-.PHONY : Medicine.i
+.PHONY : GroupTicket.i
 
 # target to preprocess a source file
-Medicine.cpp.i:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Medicine.cpp.i
-.PHONY : Medicine.cpp.i
+GroupTicket.cpp.i:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/GroupTicket.cpp.i
+.PHONY : GroupTicket.cpp.i
 
-Medicine.s: Medicine.cpp.s
+GroupTicket.s: GroupTicket.cpp.s
 
-.PHONY : Medicine.s
+.PHONY : GroupTicket.s
 
 # target to generate assembly for a file
-Medicine.cpp.s:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Medicine.cpp.s
-.PHONY : Medicine.cpp.s
+GroupTicket.cpp.s:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/GroupTicket.cpp.s
+.PHONY : GroupTicket.cpp.s
 
-Pharmacy.o: Pharmacy.cpp.o
+SingleTicket.o: SingleTicket.cpp.o
 
-.PHONY : Pharmacy.o
+.PHONY : SingleTicket.o
 
 # target to build an object file
-Pharmacy.cpp.o:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Pharmacy.cpp.o
-.PHONY : Pharmacy.cpp.o
+SingleTicket.cpp.o:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/SingleTicket.cpp.o
+.PHONY : SingleTicket.cpp.o
 
-Pharmacy.i: Pharmacy.cpp.i
+SingleTicket.i: SingleTicket.cpp.i
 
-.PHONY : Pharmacy.i
+.PHONY : SingleTicket.i
 
 # target to preprocess a source file
-Pharmacy.cpp.i:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Pharmacy.cpp.i
-.PHONY : Pharmacy.cpp.i
+SingleTicket.cpp.i:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/SingleTicket.cpp.i
+.PHONY : SingleTicket.cpp.i
 
-Pharmacy.s: Pharmacy.cpp.s
+SingleTicket.s: SingleTicket.cpp.s
 
-.PHONY : Pharmacy.s
+.PHONY : SingleTicket.s
 
 # target to generate assembly for a file
-Pharmacy.cpp.s:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Pharmacy.cpp.s
-.PHONY : Pharmacy.cpp.s
+SingleTicket.cpp.s:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/SingleTicket.cpp.s
+.PHONY : SingleTicket.cpp.s
 
-Syrob.o: Syrob.cpp.o
+Ticket.o: Ticket.cpp.o
 
-.PHONY : Syrob.o
+.PHONY : Ticket.o
 
 # target to build an object file
-Syrob.cpp.o:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Syrob.cpp.o
-.PHONY : Syrob.cpp.o
+Ticket.cpp.o:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/Ticket.cpp.o
+.PHONY : Ticket.cpp.o
 
-Syrob.i: Syrob.cpp.i
+Ticket.i: Ticket.cpp.i
 
-.PHONY : Syrob.i
+.PHONY : Ticket.i
 
 # target to preprocess a source file
-Syrob.cpp.i:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Syrob.cpp.i
-.PHONY : Syrob.cpp.i
+Ticket.cpp.i:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/Ticket.cpp.i
+.PHONY : Ticket.cpp.i
 
-Syrob.s: Syrob.cpp.s
+Ticket.s: Ticket.cpp.s
 
-.PHONY : Syrob.s
+.PHONY : Ticket.s
 
 # target to generate assembly for a file
-Syrob.cpp.s:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/Syrob.cpp.s
-.PHONY : Syrob.cpp.s
+Ticket.cpp.s:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/Ticket.cpp.s
+.PHONY : Ticket.cpp.s
+
+TicketFunction.o: TicketFunction.cpp.o
+
+.PHONY : TicketFunction.o
+
+# target to build an object file
+TicketFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/TicketFunction.cpp.o
+.PHONY : TicketFunction.cpp.o
+
+TicketFunction.i: TicketFunction.cpp.i
+
+.PHONY : TicketFunction.i
+
+# target to preprocess a source file
+TicketFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/TicketFunction.cpp.i
+.PHONY : TicketFunction.cpp.i
+
+TicketFunction.s: TicketFunction.cpp.s
+
+.PHONY : TicketFunction.s
+
+# target to generate assembly for a file
+TicketFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/TicketFunction.cpp.s
+.PHONY : TicketFunction.cpp.s
 
 main.o: main.cpp.o
 
@@ -237,7 +237,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -246,7 +246,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -255,7 +255,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Pharmacy.dir/build.make CMakeFiles/Pharmacy.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/IMAX.dir/build.make CMakeFiles/IMAX.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -265,20 +265,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Pharmacy"
+	@echo "... IMAX"
 	@echo "... edit_cache"
-	@echo "... Hapche.o"
-	@echo "... Hapche.i"
-	@echo "... Hapche.s"
-	@echo "... Medicine.o"
-	@echo "... Medicine.i"
-	@echo "... Medicine.s"
-	@echo "... Pharmacy.o"
-	@echo "... Pharmacy.i"
-	@echo "... Pharmacy.s"
-	@echo "... Syrob.o"
-	@echo "... Syrob.i"
-	@echo "... Syrob.s"
+	@echo "... GroupTicket.o"
+	@echo "... GroupTicket.i"
+	@echo "... GroupTicket.s"
+	@echo "... SingleTicket.o"
+	@echo "... SingleTicket.i"
+	@echo "... SingleTicket.s"
+	@echo "... Ticket.o"
+	@echo "... Ticket.i"
+	@echo "... Ticket.s"
+	@echo "... TicketFunction.o"
+	@echo "... TicketFunction.i"
+	@echo "... TicketFunction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

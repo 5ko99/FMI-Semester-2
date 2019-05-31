@@ -1,4 +1,4 @@
-/var/lib/snapd/snap/clion/70/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy
+/var/lib/snapd/snap/clion/73/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/petko/Workspace/FMI-Semester-2/Classwork/30.05.19/Pharmacy/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/IMAX.dir/main.cpp.o CMakeFiles/IMAX.dir/Ticket.cpp.o CMakeFiles/IMAX.dir/SingleTicket.cpp.o CMakeFiles/IMAX.dir/GroupTicket.cpp.o CMakeFiles/IMAX.dir/TicketFunction.cpp.o  -o IMAX 
