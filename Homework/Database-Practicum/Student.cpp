@@ -5,6 +5,11 @@
 #include "Student.h"
 //Help Functions
 void Student::copyStudent(int fn, const char *name, const char *surname, short grade){
+    //Check the grade range
+    if(grade<2 || grade>6){
+        cerr<<"Grade must be between 2 and 6"<<endl;
+        return;
+    }
     this->fn=fn;
     this->name=new char[strlen(name)+1];
     strcpy(this->name,name);
@@ -24,8 +29,10 @@ Student::Student(Student& st) {
     copyStudent(st.fn,st.name,st.surname,st.grade);
 }
 Student& Student::operator=(const Student& st) {
-    deleteStudent();
-    copyStudent(st.fn,st.name,st.surname,st.grade);
+    if(this!=&st){
+        deleteStudent();
+        copyStudent(st.fn,st.name,st.surname,st.grade);
+    }
     return *this;
 }
 Student::~Student() {
@@ -62,6 +69,8 @@ void Student::setGrade(short grade) {
     this->grade=grade;
 }
 //Functions for db
+
+//Check if there is a Student with the same FN
 bool Student::checkStudent(ifstream& db) const {
     int fn=-1;
     db.clear();
@@ -71,7 +80,8 @@ bool Student::checkStudent(ifstream& db) const {
         db.ignore(256,'\n');
         if(this->fn==fn) return  false;
     }
-    if(this->grade<2 || this->grade>6) return  false;
+    //Check the grade range
+    if(grade<2 || grade>6) return  false;
     return true;
 }
 void Student::save(ofstream& db) const {

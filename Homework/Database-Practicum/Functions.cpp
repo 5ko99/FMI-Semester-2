@@ -2,12 +2,11 @@
 // Created by petko on 29/04/19.
 //
 #include "Functions.h"
-void updateDb(ifstream&,ofstream&,const char*);
 void saveStudent(ofstream& dbO,ifstream& dbI, const Student& stC){
     if(stC.checkStudent(dbI)){
         stC.save(dbO);
     }else{
-        cerr<<"This FN already exist!"<<endl;
+        cerr<<"This FN already exist or grade is not in range!"<<endl;
     }
 }
 
@@ -64,7 +63,7 @@ void updateStudent(const char* path, ifstream& dbI, int fn, short grade) {
     rename("../temp.db",path);
     temp.close();
     if(flag){
-       cout<<"Record saved!"<<endl;
+       cout<<"Record updated!"<<endl;
     }else{
         cerr<<"Record not found!"<<endl;
     }
